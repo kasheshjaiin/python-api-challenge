@@ -1,14 +1,15 @@
 # Vacation Planner
 
-Welcome to Vacation Planner! This project helps you plan your next vacation by finding cities with pleasant weather conditions and nearby hotels.
+Welcome to Vacation Planner! This project is designed to help you plan your next vacation by providing recommendations for cities with suitable weather conditions and nearby hotels.
 
-## Introduction
+## Project Overview
 
-Vacation Planner is a Python application that leverages data from the OpenWeatherMap API and the Geoapify API to provide users with information about cities around the world.
-Users can specify their desired weather conditions, such as temperature and humidity ranges, and the application will identify suitable cities and find nearby hotels.
+- **Objective**: The main goal of this project is to assist users in planning their vacations by suggesting cities with pleasant weather conditions and nearby accommodation options.
+- **Functionality**: The application leverages data from the OpenWeatherMap API to analyze weather conditions for cities worldwide, including temperature, humidity, cloudiness, and wind speed. It also utilizes the Geoapify API to search for nearby hotels in selected cities.
+- **User Interaction**: Users can specify their desired weather conditions, such as temperature and humidity ranges, and the application will recommend cities that meet those criteria. Additionally, it provides information about nearby hotels to facilitate accommodation booking.
+- **Dependencies**: This project relies on various Python libraries, including Matplotlib, Pandas, NumPy, and Requests, for data analysis and API interactions.
 
-## Features
+## How It Works
 
-- **Weather Analysis**: Analyze weather data for cities worldwide, including temperature, humidity, cloudiness, and wind speed.
-- **Hotel Search**: Search for nearby hotels in selected cities using the Geoapify API.
-- **Interactive Maps**: Visualize city data and hotel locations on interactive maps.
+1. **Weather Data Analysis**: The application fetches weather data for cities using the OpenWeatherMap API. It analyzes parameters like temperature and humidity to identify cities with suitable weather conditions.
+2. **Hotel Search**: After selecting potential cities, the application uses the Geoapify API to search for nearby hotels. It provides users with options for accommodation in their chosen destinations.
